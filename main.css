@@ -99,9 +99,9 @@ table td {
 }
 
 #rodape {
-    height: 35px;
+    height: 50px;
     background: linear-gradient(to bottom, rgb(156, 0, 52), #2A0944);
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
