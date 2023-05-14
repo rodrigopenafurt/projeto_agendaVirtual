@@ -20,7 +20,7 @@ function adicionaLinha() {
     const campoContato = document.getElementById('contato')
 
     if (listaNome.includes(campoNome.value)) {
-        alert(`Campo inválido, o nome ${campoNome.value} já existe em sua lista de contatos,`)
+        alert(`Campo inválido, o nome ${campoNome.value} já existe em sua lista de contatos.`)
     } else {
         listaNome.push(campoNome.value)
         let linha ='<tr>'
